@@ -1,0 +1,35 @@
+$primary-color: #fbcee1;
+$ext-color: #222;
+$bg-color: #f7f7f7;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: $primary-color;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 3rem;
+  }
+}
