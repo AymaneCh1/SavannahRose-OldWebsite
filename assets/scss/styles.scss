@@ -1,5 +1,5 @@
 $primary-color: #fbcee1;
-$ext-color: #222;
+$text-color: #222;
 $bg-color: #f7f7f7;
 
 *,
@@ -17,6 +17,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   background: $primary-color;
+  color: $text-color;
   text-rendering: optimizeLegibility;
 }
 
@@ -31,5 +32,6 @@ body {
     font-size: 3rem;
     font-weight: 400;
     margin-top: 3rem;
+    text-align: center;
   }
 }

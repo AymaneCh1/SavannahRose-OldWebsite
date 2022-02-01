@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   background: #fbcee1;
+  color: #222;
   text-rendering: optimizeLegibility;
 }
 
@@ -38,5 +39,6 @@ body {
   font-size: 3rem;
   font-weight: 400;
   margin-top: 3rem;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
